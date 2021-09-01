@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Code | Steady</title>
+    <link rel="stylesheet" href="../css/main-styles.css">
+
+    <script src="../components/header.js" type="text/javascript" defer></script>
+    <script src="../components/nav.js" type="text/javascript" defer></script>
+
+    <style>
+        #code-nav{
+            background-color: #e78b35;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header-component></header-component>
+    <nav-component id="nav-bar"></nav-component>
+    <main>
+        <div id="code-div">
+           <div id="splits">
+            <div id="work-splits" class="splits-container"></div>
+            <div id="break-splits" class="splits-container"></div>
+           </div>
+           <div id="clock-button-container">
+                <div id="clock-container">00 : 00 : 00 . 000</div>
+                <div id="button-container">
+                    <button id="clock-start" onClick="startWorking()">Let's Work</button>
+                </div>
+           </div>
+    </main>
+    <footer-component></footer-component>
+
+    <script src="../js/stopwatch.js"></script>
+    <script src="../js/code.js"></script>
+</body>
+</html>
